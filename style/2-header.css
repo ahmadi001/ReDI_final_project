@@ -1,0 +1,78 @@
+.second-header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2px;
+  
+    padding-left: 90px;
+    padding-right: 90px;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(187, 181, 181);
+    border-radius: 100px;
+    border-style: solid;
+    box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.10);
+
+
+    
+   
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+  
+    z-index: 100;
+
+     
+
+}
+
+
+
+
+.menu-0,.menu-1, .menu-2, .menu-3, .menu-4, .menu-5{
+
+    width: 145px;
+    height: 60px;
+    background-color: #30a9de;
+    border-width: 0px;
+    border-color: black;
+    
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+    font-family: Kanit;
+    margin-bottom: 0%;
+    
+
+   
+
+}
+
+.menu-0{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+
+.menu-5{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
+
+
+.menu-0:hover,.menu-1:hover,  .menu-2:hover,  .menu-3:hover,  .menu-4:hover,  .menu-5:hover{
+    color: white;
+    cursor: pointer;
+    background-color:#1A1D4E;
+    transition: 0.50s;
+}
+
+
+
+
+
+
+

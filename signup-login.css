@@ -1,0 +1,106 @@
+body{
+    font-family: Kanit;
+}
+
+
+
+
+.signup-box{
+    display:inline-block;
+
+    
+    margin-top: 100PX;
+    margin-left: 400PX;
+    margin-right: 400px;
+
+    padding-left: 200px;
+    padding-top: 50PX;
+    padding-bottom: 100PX;
+    padding-right: 200px;
+    border-width: 2px;
+    border-radius: 25px;
+    background-color: aliceblue;
+
+}
+
+.registration{
+    text-align: center;
+    margin-bottom: 30px;
+    
+    font-size: larger;
+
+
+}
+
+.user,.email,.password,.c-password{
+    font-size: small;
+
+    
+
+
+
+}
+
+.input-box{
+   
+    flex: 1;
+    height: 34px ;
+    padding-left: 10px;
+    font-size: 16px ;
+    border-width: 1px;
+    border-style:solid;
+    border-color: rgb(235, 231, 231);
+    border-radius: 20px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    
+    
+
+}
+
+
+.register-button-div{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.register-button{
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    font-style: 500;
+    font-family: Kanit;
+    border-radius: 40px;
+    border-color: rgb(235, 231, 231);
+    border-width: 1px;
+    background-color: rgb(255, 255, 255);
+    border-style: solide;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+
+}
+
+.register-button:hover{
+    background-color:#1A1D4E;
+    color: white;
+    cursor: pointer;
+}
+
+.last-text{
+    margin-top: 25px;
+
+    text-align: center;
+    
+
+
+
+}
+
+.login-link{
+    text-decoration-line: none;
+    color: black;
+}
+
+.login-link:hover{
+    text-decoration-line:underline ;
+}
+    

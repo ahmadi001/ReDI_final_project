@@ -1,0 +1,185 @@
+
+.header{
+    
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f1f1f1;
+    z-index: 100;
+
+     
+    
+
+    
+
+
+
+  }
+
+  .left-section{
+    
+    width: 190px;
+    display: flex;
+    align-items: center;
+    
+
+  }
+
+  .web-logo{
+    width: 60px;
+    
+   
+    margin-top: 0%;
+    border-radius: 30px;
+    
+    margin-left: 20px;
+    
+  }
+
+  .middle-section{
+   
+    flex: 1;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .search-bar{
+  
+    flex: 1;
+    height: 34px ;
+    padding-left: 10px;
+    font-size: 16px ;
+    border-width: 0px;
+    border-style:solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    margin-right: -12;
+  }
+
+
+  .search-icon{
+    width: 30px;
+    
+  }
+  .search-button{
+    height: 38px;
+    width: 60px;
+    border-radius: 20px;
+    background-color: white;
+    border-width: 0px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    margin-left: -30px;
+
+  }
+
+  .search-button:hover{
+    cursor: pointer;
+
+    background-color:rgb(42, 127, 207);
+    color: white;
+    transition: 0.50s;
+
+  }
+
+
+
+
+
+
+
+  .right-section{
+   
+    width: 260px;
+    display: flex;
+    align-items: center;
+  }
+
+  .bell-icon{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    margin-right: 30px;
+    background-color: white;
+    border-radius: 20px;
+
+
+    
+  
+
+  }
+
+  .bell-icon:hover{
+   
+    cursor: pointer;
+    width: 30px;
+    
+    
+  }
+
+  .sign-up{
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    font-style: 500;
+    font-family: Kanit;
+    background-color: white;
+    border-radius: 40px;
+    border-color: rgb(0, 0, 0);
+    border-width: 0px;
+    border-style: solide;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+
+
+  }
+
+  
+  .sign-up:hover{
+    
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    background-color:#1A1D4E;
+    transition: 0.50s;
+
+  }
+
+  .log-in{
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    font-style: 500;
+    font-family: Kanit;
+    background-color: white;
+    border-radius: 40px;
+    border-color: rgb(0, 0, 0);
+    border-width: 0px;
+    border-style: solide;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+
+    
+  }
+
+  .log-in:hover{
+    
+    height: 30px;
+    cursor: pointer;
+    background-color:#1A1D4E;
+    transition: 0.50s;
+    color: white;
+
+  }

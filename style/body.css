@@ -1,0 +1,262 @@
+
+body{
+  padding-top: 80px;
+  margin-top: 0%;
+  margin-bottom: 100px;
+  margin-left: 0%;
+  margin-right: 0%;
+  font-family: Kanit;
+  position: relative;
+  background-color: #f1f1f1;
+
+}
+
+
+.photo-div{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0%;
+   
+    
+    
+
+
+  }
+
+  .main-photo{
+    border-width: 3px;
+    border-color: black;
+    border-radius: 100px;
+    padding-left: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+  }
+
+  .text-div{
+
+    width: 600px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-weight: 500;
+    color: #1A1D4E;
+    font-size: 72px;
+    font-family: Arial;
+    line-height: 100px;
+    border-width: 0px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  }
+  .span-text{
+    font-weight: bold;
+    
+  }
+
+.customaisation-text{
+
+  
+  margin-top: 0%;
+  padding-top: 150px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  color:  rgb(56, 55, 55);
+  border-style: solid;
+  border-radius: 150px;
+  border-width: 0px;
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.10);
+
+
+  
+}
+
+.customaisation-photo{
+  
+  padding-left: 90px;
+  padding-right: 90px;
+  display: flex;
+  justify-content: center;
+  
+}
+  
+.photo-1{
+  width: 300px;
+  margin-left: 40px;
+  border-radius: 50px;
+  
+ 
+}
+
+.photo-2{
+  width: 300px;
+  border-radius: 50px;
+
+ 
+}
+
+.photo-3{
+  width: 300px;
+  margin-right: 0%;
+  border-radius: 50px;
+
+ 
+}
+
+.customaisation-text-2{
+
+  
+  font-size: 16px;
+  padding-top: 50px;
+  padding-left: 245px;
+  padding-right: 220px;
+  line-height: 1.5;
+  padding-bottom: 50px;
+  border-style: solid;
+  border-radius: 150px;
+  border-width: 0px;
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.10);
+  
+  
+
+  
+
+}
+
+
+
+
+
+
+.difinition-text{
+
+  background-color: #A2DED0;
+  padding-top: 150px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+  color: rgb(17, 16, 16);
+  padding-bottom: 50px;
+  font-family: Kanit;
+  border-style: solid;
+  border-radius: 150px;
+  border-width: 0px;
+
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.10);
+
+  
+  
+
+}
+
+.difinition-text-1{
+  font-size: 20px;
+  text-align: center;
+  color: rgb(25, 24, 24);
+  
+  
+  
+  
+}
+
+.difinition-text-2 , .difinition-text-3 ,.difinition-text-4,
+.difinition-text-5, .difinition-text-6 , .difinition-text-7
+, .difinition-text-8 , .difinition-text-9 , .difinition-text-10
+, .difinition-text-11 , .difinition-text-12 , .difinition-text-13
+, .difinition-text-14 , .difinition-text-15, .difinition-text-16{
+
+  background-color: aliceblue;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  font-weight: bold;
+  color: black;
+  border-style: solid;
+  border-radius: 150px;
+  border-width: 0px;
+
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.10);
+
+  
+
+  
+}
+
+.difinition-text-2:hover, .difinition-text-3:hover ,.difinition-text-4:hover,
+.difinition-text-5:hover, .difinition-text-6:hover , .difinition-text-7:hover
+, .difinition-text-8:hover , .difinition-text-9:hover , .difinition-text-10:hover
+, .difinition-text-11:hover , .difinition-text-12:hover, .difinition-text-13:hover
+, .difinition-text-14:hover , .difinition-text-15:hover, .difinition-text-16:hover{
+
+  background-color:#1A1D4E;
+  cursor: pointer;
+  color: white;
+
+}
+
+
+
+  
+.contact-div{
+
+  background-color: aliceblue;
+  color: rgb(32, 28, 28);
+  padding-top: 180px;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-radius: 150px;
+  border-width: 0px;
+
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.10);
+
+  
+}
+
+.contact-text{
+  padding-top:80px;
+  padding-bottom: 30px;
+  text-align: left;
+  font-size:25px ;
+  padding-left: 50px;
+}
+
+
+.findus-div{
+  color: rgb(32, 28, 28);
+  padding-top: 100px;
+  text-align: center;
+  font-size: 18px;
+  
+  padding-top: 180px;
+  border-style: solid;
+  border-radius: 150px;
+  border-width: 0px;
+
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.10);
+
+  
+ 
+ 
+  
+  
+
+}
+
+.findus-map{
+  margin-top: 30px;
+  border-style: solid;
+  border-radius: 150px;
+  border-width: 0px;
+
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.10);
+
+  
+}
+
+
